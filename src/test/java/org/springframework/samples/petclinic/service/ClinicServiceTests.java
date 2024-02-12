@@ -177,7 +177,7 @@ class ClinicServiceTests {
 		pet7.setName(newName);
 		this.owners.save(owner6);
 
-		owner6 = this.owners.findById(7);
+		owner6 = this.owners.findById(8);
 		pet7 = owner6.getPet(7);
 		assertThat(pet7.getName()).isEqualTo(newName);
 	}
